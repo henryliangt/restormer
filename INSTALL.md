@@ -18,8 +18,8 @@ conda activate restormer
 3. Install dependencies
 ```
 conda install -y pytorch=1.8 torchvision cudatoolkit=10.2 -c pytorch
-pip install -y matplotlib scikit-learn scikit-image opencv-python yacs joblib natsort h5py tqdm
-pip install -y einops gdown addict future lmdb numpy pyyaml requests scipy tb-nightly yapf lpips
+pip install  matplotlib scikit-learn scikit-image opencv-python yacs joblib natsort h5py tqdm
+pip install einops gdown addict future lmdb numpy pyyaml requests scipy tb-nightly yapf lpips
 ```
 
 4. Install basicsr
