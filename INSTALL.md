@@ -45,9 +45,16 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$HOME/go/bin:$HOME/installed/go/bin
 ```
 
-3. Install `gdrive` using
+3. Test if go installed successfully and install `gdrive` using
+```
+go version
+```
+   
 ```
 go install github.com/prasmussen/gdrive@latest
 ```
 
+```
+gdrive version
+```
 4. Close current terminal and open a new terminal. 
