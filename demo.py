@@ -73,7 +73,13 @@ task    = args.task
 inp_dir = args.input_dir
 out_dir = os.path.join(args.result_dir, task)
 
+print(inp_dir)
+print(os.listdir(inp_dir))
+
+
 os.makedirs(out_dir, exist_ok=True)
+print(os.listdir(out_dir))
+
 
 extensions = ['jpg', 'JPG', 'png', 'PNG', 'jpeg', 'JPEG', 'bmp', 'BMP']
 

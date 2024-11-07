@@ -41,6 +41,11 @@ Example usage to perform Defocus Deblurring on a directory of images:
 ```
 python demo.py --task Single_Image_Defocus_Deblurring --input_dir './demo/degraded/' --result_dir './demo/restored/'
 ```
+
+```
+python demo.py --task Single_Image_Defocus_Deblurring --input_dir ./demo/degraded1/ --result_dir ./demo/restored1/
+```
+
 Example usage to perform Defocus Deblurring on an image directly:
 ```
 python demo.py --task Single_Image_Defocus_Deblurring --input_dir './demo/degraded/portrait.jpg' --result_dir './demo/restored/'
