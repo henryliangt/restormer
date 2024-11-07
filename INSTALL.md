@@ -5,20 +5,20 @@ Follow these intructions
 
 1. Clone our repository
 ```
-git clone https://github.com/swz30/Restormer.git
-cd Restormer
+git clone https://github.com/henryliangt/restormer
+cd restormer
 ```
 
 2. Make conda environment
 ```
-conda create -n pytorch181 python=3.7
-conda activate pytorch181
+conda create -n restormer python=3.7
+conda activate restormer
 ```
 
 3. Install dependencies
 ```
-conda install pytorch=1.8 torchvision cudatoolkit=10.2 -c pytorch
-pip install matplotlib scikit-learn scikit-image opencv-python yacs joblib natsort h5py tqdm
+conda install -y pytorch=1.8 torchvision cudatoolkit=10.2 -c pytorch
+pip install  matplotlib scikit-learn scikit-image opencv-python yacs joblib natsort h5py tqdm
 pip install einops gdown addict future lmdb numpy pyyaml requests scipy tb-nightly yapf lpips
 ```
 
@@ -45,9 +45,16 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$HOME/go/bin:$HOME/installed/go/bin
 ```
 
-3. Install `gdrive` using
+3. Test if go installed successfully and install `gdrive` using
 ```
-go get github.com/prasmussen/gdrive
+go version
+```
+   
+```
+go install github.com/prasmussen/gdrive@latest
 ```
 
+```
+gdrive version
+```
 4. Close current terminal and open a new terminal. 
