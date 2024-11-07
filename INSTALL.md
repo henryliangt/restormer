@@ -47,7 +47,7 @@ export PATH=$PATH:$HOME/go/bin:$HOME/installed/go/bin
 
 3. Install `gdrive` using
 ```
-go install github.com/prasmussen/gdrive
+go install github.com/prasmussen/gdrive@latest
 ```
 
 4. Close current terminal and open a new terminal. 
